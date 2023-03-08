@@ -1,0 +1,93 @@
+@media only screen and (max-width:768px) {
+.nav__bar a{
+    display: none;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+.need__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5rem;
+}
+.title h2{
+    font-size: 2rem;
+}
+.our__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+.get__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem;
+    text-align: center;
+}
+.servcies__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.mind__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+.infarmation__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem;
+}
+.form input{
+    width: 100%;
+    height: 70px;
+}
+.form textarea{
+    width: 100%;
+    height: 120px;
+}
+}
+
+@media only screen and (max-width:468px){
+    .title h2{
+        font-size: 1.6rem;
+    }
+    
+.aim__item h2{
+    color:black;
+    font-family: var(--ubuntu);
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+    width: 100%;
+}
+.aim__item p{
+    margin-bottom: 1rem;
+}
+}
+
+@media only screen and (max-width:368px){
+    .title h2{
+        font-size: 1rem;
+    }
+    .title p{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .client .text h4{
+        font-family: var(--monster);
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    
+.servcies__item h3 {
+    font-size: 0.9rem;
+    width: 100%;
+}
+.servcies__item p{
+    width: 100%;
+    font-size: 0.8rem;
+    font-family: var(--mono);  
+}
+}
